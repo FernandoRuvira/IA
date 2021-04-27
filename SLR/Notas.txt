@@ -1,0 +1,2 @@
+javac -cp lib\jade.jar src\examples\SimpleLR\*.java -d classes\
+java -cp lib\jade.jar;classes\ jade.Boot -gui SLR:handson.slr.OneShotAgent
